@@ -1,7 +1,6 @@
 import streamlit as st
 from utils.preprocess import clean_text
 from utils.predict import predict_sentiment
-
 st.set_page_config(page_title="Mental Health Analyzer")
 
 st.title("🧠 Mental Health Analyzer")
